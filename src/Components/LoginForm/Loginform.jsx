@@ -1,5 +1,5 @@
 import React from "react"
-import "./Loginform.css"
+import "./Loginform2.css"
 import {PiUser, PiPasswordFill} from "react-icons/pi";
 
 const Loginform = () => {
