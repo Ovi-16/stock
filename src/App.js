@@ -15,12 +15,12 @@ function App() {
     //   </div>
     // </React.Fragment>
     <div className="App">
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<LoginForm />} />
+      {/* <Navbar /> */}
+      {/* <Routes>
+        <Route path="/" element={<About />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Register />} />
-      </Routes>
+      </Routes> */}
     </div>
   );
 }
