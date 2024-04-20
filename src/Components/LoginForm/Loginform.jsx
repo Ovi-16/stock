@@ -8,10 +8,12 @@ const Loginform = () => {
             <form action="">
                 <h1>Login</h1>
                 <div className="input-box">
-                    <input type="text" placeholder="Username" required/><PiUser />
+                    <input type="text" placeholder="Username" required/>
+                    <PiUser className='icon'/>
                 </div>
                 <div className="input-box">
-                    <input type="password" placeholder="Password" required/><PiPasswordFill />
+                    <input type="password" placeholder="Password" required/>
+                    <PiPasswordFill classname='icon' />
                 </div>
                 <div className="remember-forgot">
                     <label><input type="checkbox"/>Remember me</label>
