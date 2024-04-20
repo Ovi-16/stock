@@ -13,7 +13,7 @@ const Loginform = () => {
                 </div>
                 <div className="input-box">
                     <input type="password" placeholder="Password" required/>
-                    <PiPasswordFill classname='icon' />
+                    <PiPasswordFill className='icon'/>
                 </div>
                 <div className="remember-forgot">
                     <label><input type="checkbox"/>Remember me</label>
